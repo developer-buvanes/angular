@@ -8,12 +8,14 @@ import { DemoMaterialModule } from './demo-material/demo-material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormComponent } from './form/form.component';
+import { HelloComponent } from './hello/hello.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     FormComponent,
+    HelloComponent,
   ],
 
   imports: [
